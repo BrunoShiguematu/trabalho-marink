@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Forms.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Cadastro de Dev</h1>
+      </div>
+      <form id="form" class="form">
+        <div class="form-content">
+          <label for="fname">Nome</label>
+          <input
+            type="text"
+            id="fname"
+            placeholder="Digite seu primeiro nome..."
+          />
+          <a>Preenchar o seu Nome!</a>
+        </div>
+
+        <div class="form-content">
+          <label for="lname">Sobrenome</label>
+          <input
+            type="text"
+            id="lname"
+            placeholder="Digite o seu sobrenome..."
+          />
+          <a> Digite o seu sobrenome</a>
+        </div>
+
+        <div class="form-content">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Digite o seu email..." />
+          <a>Digite um email obrigatorialmente</a>
+        </div>
+
+        <div class="form-content">
+          <label for="pwd">Senha</label>
+          <input type="password" id="pwd" placeholder="Digite sua senha..." />
+          <a> Digite a sua senha</a>
+        </div>
+
+        <div class="form-content">
+          <label for="pwd-confirmation">Confirmação de Senha</label>
+          <input
+            type="password"
+            id="pwd-confirmation"
+            placeholder="Digite sua senha novamente..."
+          />
+          <a> Digite a sua senha novamente</a>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+    <script src="Forms.js"></script>
+  </body>
+</html>
